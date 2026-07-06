@@ -61,33 +61,27 @@
                 <button onclick="navigateToView('main-landing', '#start')" class="flex items-center gap-3 group transition-opacity hover:opacity-90 text-left">
                     <div class="w-12 h-12 bg-[#0A1128] rounded-lg flex items-center justify-center shadow-lg shadow-black/20">
   <svg class="w-8 h-8" viewBox="0 0 100 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-      <!-- Maski obcinające wewnętrzne krawędzie, by były idealnie proste -->
-      <clipPath id="left-clip">
-        <rect x="0" y="0" width="48" height="110" />
-      </clipPath>
-      <clipPath id="right-clip">
-        <rect x="52" y="0" width="48" height="110" />
-      </clipPath>
-    </defs>
-    
-    <!-- Lewa połowa logo -->
-    <g clip-path="url(#left-clip)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 48 20 L 18 37" stroke="#F5A524" />
-      <path d="M 48 32 L 18 49" stroke="#F5A524" />
-      <path d="M 48 44 L 18 61" stroke="#52525B" />
-      <path d="M 48 56 L 18 73 L 48 90" stroke="#F5A524" />
-    </g>
-    
-    <!-- Prawa połowa logo -->
-    <g clip-path="url(#right-clip)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M 52 20 L 82 37 L 52 54" stroke="#F5A524" />
-      <path d="M 52 66 L 82 49" stroke="#52525B" />
-      <path d="M 52 78 L 82 61" stroke="#F5A524" />
-      <path d="M 52 90 L 82 73" stroke="#F5A524" />
-    </g>
-  </svg>
-</div>
+  <defs>
+    <clipPath id="left-clip">
+      <rect x="0" y="0" width="48" height="110" />
+    </clipPath>
+    <clipPath id="right-clip">
+      <rect x="52" y="0" width="48" height="110" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#left-clip)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 48 20 L 18 37" stroke="#F5A524" />
+    <path d="M 48 32 L 18 49" stroke="#F5A524" />
+    <path d="M 48 44 L 18 61" stroke="#52525B" />
+    <path d="M 48 56 L 18 73 L 48 90" stroke="#F5A524" />
+  </g>
+  <g clip-path="url(#right-clip)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 52 20 L 82 37 L 52 54" stroke="#F5A524" />
+    <path d="M 52 66 L 82 49" stroke="#52525B" />
+    <path d="M 52 78 L 82 61" stroke="#F5A524" />
+    <path d="M 52 90 L 82 73" stroke="#F5A524" />
+  </g>
+</svg>
                     </div>
                     <div>
                         <span class="block font-display font-extrabold text-lg text-white tracking-tight leading-none">ARC PRO</span>
